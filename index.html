@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Prayer Time API</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="head">
+                <div class="info">
+                    <h1 class="adhan-name">
+                        Fajr
+                    </h1>
+                    <p class="adhan-time">
+                    </p>
+
+                    <div class="localization">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h1>Rabat</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="date-info">
+                    <div class="navigation button-next">
+                        <i class="fa-solid fa-angle-left"></i>
+                    </div>
+                    <p class="date"></p>
+                    <div class="navigation button-prev">
+                        <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                </div>
+                <div class="timings">
+                    <div class="Fajr active">
+                        <span class="prayer-name">Fajr</span>
+                        <span><div class="pray-time"></div> AM</span>
+                    </div>
+
+                    <div class="Sunrise">
+                        <span class="prayer-name">Sunrise</span>
+                        <span><div class="pray-time"></div> AM</span>
+                    </div>
+
+                    <div class="Dhuhr">
+                        <span class="prayer-name">Dhuhr</span>
+                        <span><div class="pray-time"></div> PM</span>
+                    </div>
+
+                    <div class="Asr">
+                        <span>Asr</span>
+                        <span><div class="pray-time"></div> PM</span>
+                    </div>
+
+                    <div class="Maghrib">
+                        <span class="prayer-name">Maghrib</span>
+                        <span><div class="pray-time"></div> PM</span>
+                    </div>
+
+                    <div class="Isha">
+                        <span class="prayer-name">Isha</span>
+                        <span><div class="pray-time"></div> PM</span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="location">
+                <select id="citySelect" class="nice-select">
+                    <option value="Rabat" data-country="MA">Rabat</option>
+                    <option value="Algiers" data-country="DZ">Algiers</option>
+                    <option value="Tunis" data-country="TN">Tunis</option>
+                    <option value="Tripoli" data-country="LY">Tripoli</option>
+                    <option value="Cairo" data-country="EG">Cairo</option>
+                    <option value="Riyadh" data-country="SA">Riyadh</option>
+                    <option value="Abu Dhabi" data-country="AE">Abu
+                        Dhabi</option>
+                    <option value="Doha" data-country="QA">Doha</option>
+                    <option value="Manama" data-country="BH">Manama</option>
+                    <option value="Kuwait City" data-country="KW">Kuwait
+                        City</option>
+                    <option value="Muscat" data-country="OM">Muscat</option>
+                    <option value="Sana'a" data-country="YE">Sana'a</option>
+                    <option value="Baghdad" data-country="IQ">Baghdad</option>
+                    <option value="Damascus" data-country="SY">Damascus</option>
+                    <option value="Amman" data-country="JO">Amman</option>
+                    <option value="Beirut" data-country="LB">Beirut</option>
+                    <option value="Khartoum" data-country="SD">Khartoum</option>
+                    <option value="Mogadishu"
+                        data-country="SO">Mogadishu</option>
+                    <option value="Nouakchott"
+                        data-country="MR">Nouakchott</option>
+                    <option value="Ankara" data-country="TR">Ankara</option>
+                    <option value="Tehran" data-country="IR">Tehran</option>
+                    <option value="Islamabad"
+                        data-country="PK">Islamabad</option>
+                    <option value="Kabul" data-country="AF">Kabul</option>
+                    <option value="Dhaka" data-country="BD">Dhaka</option>
+                    <option value="Jakarta" data-country="ID">Jakarta</option>
+                    <option value="Kuala Lumpur" data-country="MY">Kuala
+                        Lumpur</option>
+                    <option value="Bandar Seri Begawan" data-country="BN">Bandar
+                        Seri Begawan</option>
+                    <option value="Banjul" data-country="GM">Banjul</option>
+                    <option value="Niamey" data-country="NE">Niamey</option>
+                    <option value="Bamako" data-country="ML">Bamako</option>
+                    <option value="Dakar" data-country="SN">Dakar</option>
+                    <option value="N'Djamena"
+                        data-country="TD">N'Djamena</option>
+                </select>
+
+            </div>
+        </div>
+
+        <script src="JavaScript/main.js"></script>
+    </body>
+</html>
