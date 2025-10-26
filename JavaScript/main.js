@@ -165,7 +165,7 @@ function activateNextPrayerCard(nextPrayerTime) {
 // 🔹 6. Update UI
 function updateUI(todayPrayerData) {
   if (state.activePrayerCard) {
-    pageHeader.style.backgroundImage = `url("../Image/${state.activePrayerCard.classList[0]}.webp")`;
+    pageHeader.style.backgroundImage = `url(../Image/${state.activePrayerCard.classList[0]}.webp)`;
     adhanNameDisplay.textContent =
       state.activePrayerCard.children[0].textContent;
     adhanTimeDisplay.textContent =
