@@ -109,7 +109,7 @@ function startCountdown(nextPrayerTime) {
       const card = state.activePrayerCard;
       adhanNameDisplay.textContent = card.children[0].textContent;
       adhanTimeDisplay.textContent = `-${displayHours}:${displayMinutes}:${displaySeconds}`;
-      pageHeader.style.backgroundImage = `url("../Image/${card.classList[0]}.webp")`;
+      pageHeader.style.backgroundImage =`url("Image/${card.classList[0]}.webp")`;
     }
 
     // تحديث الوقت المتبقي
