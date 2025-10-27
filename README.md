@@ -11,6 +11,9 @@ A modern web-based Islamic Prayer Times dashboard featuring automatic next-praye
 - Navigate between days of the month
 - Clean and minimal user interface
 
+## 🔗 Live Demo
+Check it out here: [Prayer Time App](https://hyaanx.github.io/PrayerTimeApp/)
+
 ## 🛠️ Technologies Used
 
 - HTML
